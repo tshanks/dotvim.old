@@ -4,6 +4,11 @@
 " This is done automatically because it found a vimrc
 "set nocompatible	" Use Vim defaults (much better!)
 
+" Start pathogen; must be called early
+if exists("pathogen#runtime_append_all_bundles")
+	source "~/.vim/enable-pathogen.vim"
+endif
+
 set backup		" keep a backup file
 
 " Put all backups in the same place
