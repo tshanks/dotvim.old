@@ -1,6 +1,6 @@
 Installation:
 
-git clone <GIT-ADDRESS> ~/.vim
+git clone git://github.com/tshanks/dotvim.git ~/.vim
 
 Create relative symlinks:
 
@@ -17,7 +17,7 @@ git submodule update
 
 To add a module, first run (in ~/.vim):
 
-git submodule add git://github.com/<USER>/vim-<MODULE>.git bundle/<MODULE>
+git submodule add git://github.com/(USER)/vim-(MODULE).git bundle/(MODULE)
 git submodule init
 git submodule update
 

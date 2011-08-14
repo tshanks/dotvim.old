@@ -1,4 +1,5 @@
-" Thomas Shanks vim pathogen config (tshanks@gatech.edu) from git (URL HERE)
+" Thomas Shanks (tshanks@gatech.edu) vim pathogen config 
+" Available at github.com/tshanks/dotvim.git
 " All rights reserved.  Not for redistribution.  Eat your vegetables.
 
 " Sourced at the beginning of vimrc during startup.
