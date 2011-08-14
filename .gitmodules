@@ -8,3 +8,8 @@
 	url = git://github.com/tpope/vim-fugitive.git
 	ignore = untracked
 	update = merge
+[submodule "bundle/taglist-plus"]
+	path = bundle/taglist-plus
+	url = git://github.com/int3/vim-taglist-plus.git
+	ignore = untracked
+	update = merge
