@@ -51,7 +51,7 @@ set ignorecase smartcase
 
 set sidescroll=4
 
-if !has("gui_running") && len(&t_vb) > 0
+if len(&t_vb) > 0
 	set visualbell		" kill the beeps! (visible bell)
 endif
 
