@@ -29,7 +29,6 @@ endif
 " Some (especially comments) from 
 " http://www.mattrope.com/computers/conf/vimrc.html
 
-set visualbell		" kill the beeps! (visible bell)
 set wildmenu		" use a scrollable menu for filename completions
 
 set incsearch		" incremental search
@@ -51,6 +50,10 @@ set title		" Set the xterm title string when I tell you to
 set ignorecase smartcase
 
 set sidescroll=4
+
+if !has("gui_running") && len(&t_vb) > 0
+	set visualbell		" kill the beeps! (visible bell)
+endif
 
 if !has("gui_running") && &lines > 47
 	set ls=2		" always puts seperate filename line at bottom
