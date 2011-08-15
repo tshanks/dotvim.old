@@ -6,7 +6,7 @@
 "set nocompatible	" Use Vim defaults (much better!)
 
 " Start pathogen; must be called early
-if exists("pathogen#runtime_append_all_bundles")
+if filereadable("~/.vim/enable-pathogen.vim")
 	source "~/.vim/enable-pathogen.vim"
 endif
 
